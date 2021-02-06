@@ -1,0 +1,58 @@
+.navBar_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navBar_menu li {
+  padding: 0 10px;
+  list-style: none;
+  
+}
+.navBar_menu li a {
+  font-style: italic;
+  color: rgb(97, 218, 251);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navBar_menu li a:hover {
+  color: white;
+  background-color: rgb(97, 218, 251);
+}
+
+.translate{
+  cursor: pointer;
+  outline-style: none;
+  padding: 3px 10px;
+  border: none;
+  border-radius:20px;
+  background-color: rgb(97, 218, 251);
+  color: black;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 700;
+  z-index: 6;
+}
+.edit{
+  cursor: pointer;
+  outline-style: none;
+  padding: 2px 5px;
+  border: none;
+  border-radius:20px;
+  background-color: rgb(235, 251, 0);
+  color: black;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 700;
+  z-index: 6;
+}
+.xButton{
+height: 20px;
+width: 20px;
+border: none;
+border-radius: 10px;
+background-color: red;
+}
